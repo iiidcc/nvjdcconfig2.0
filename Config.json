@@ -1,0 +1,60 @@
+{
+  ///浏览器最多几个网页
+  "MaxTab": "5",
+  //网站标题
+  "Title": "你的网站显示的标题",
+  //回收时间分钟 不填默认3分钟
+  "Closetime": "5",
+  //网站公告
+  "Announcement": "
+<b>本项目脚本收集于互联网，为了您的财产安全，请关闭京东免密支付。<br>
+下载以下APP并登陆你的账号： <br>京东、京喜、京东金融、京东极速版。</b><br><br>
+        
+        1. 东东农场种4级的水果价值50元，完成后不兑换水果，可以在京东app里面当做无门槛红包用价值50元 <br>
+        2. 东东萌宠同理，在京东app里面使用价值20元。<br>
+        3. 京喜工厂东西生产完，有有效期，过期不领取失效 <br>
+        4. 京喜购物，建议参加别人的团，不要自己开团 <br>
+        5. 东东健康社区，经常有价值1元的好东西，比如口罩、维生素等等 <br>
+        6. 京东赚赚红包每月月1号0点抢，只能在京东app使用，建议聚多一点在抢 <br>
+        7. 极速版金币兑换建议累计到50元兑换。 <br>
+        8. 京东app我的－优惠券，每天自动领取若千优惠券。<br><br>
+        
+        <b>登陆成功后点击复制CK然后发送给机器人绑定你的QQ</b><br><br>
+        机器人QQ: <b>【QQ号码】</b><br>
+        发送<b>【菜单】</b>查看各种功能
+        </br><font color=\'#B22222\' size=\'4px\'>务必要添加QQ群或者机器人</font></br></br>
+  <a href=\'点击机器人头像分享二维码的时候选择复制链接粘贴到这里\'><button class=\'el-button el-button--primary\' type=\'button\'><span>添加QQ机器人</span>
+  </button></a></br></br><a href=\'点分享QQ群然后复制链接粘贴到这里'><button class=\'el-button el-button--primary\' type=\'button\'><span>加入QQ群</span></button></a>",
+  ///开启打印等待日志卡短信验证登陆 可开启 拿到日志群里回复 默认不要填写
+  "Debug": "",
+  ///自动滑块次数5次 5次后手动滑块 可设置为0默认手动滑块
+  "AutoCaptchaCount": "5",
+  ///XDD PLUS Url  http://IP地址:端口/api/login/smslogin
+  "XDDurl": "",
+  ///xddToken
+  "XDDToken": "",
+  ///## 8. Push Plus官方网站：http": //www.pushplus.plus  只有青龙模式有用
+  ///下方填写您的Token，微信扫码登录后一对一推送或一对多推送下面的token，只填" "PUSH_PLUS_TOKEN",
+  "PUSH_PLUS_TOKEN": "",
+  //下方填写您的一对多推送的 "群组编码" ，（一对多推送下面->您的群组(如无则新建)->群组编码）
+  "PUSH_PLUS_USER": "",
+  ///青龙配置  注意对接XDD 对接芝士 设置为"Config":[]
+  "Config": [
+    {
+      //序号必填从1 开始
+      "QLkey": 1,
+      //服务器名称
+      "QLName": "阿里云",
+      //青龙地址
+      "QLurl": "",
+      //青龙2,9 OpenApi Client ID
+      "QL_CLIENTID": "",
+      //青龙2,9 OpenApi Client Secret
+      "QL_SECRET": "",
+      //CK最大数量
+      "QL_CAPACITY": 40,
+      "QRurl": ""
+    }
+  ]
+ 
+}
