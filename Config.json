@@ -25,6 +25,14 @@
         </br><font color=\'#B22222\' size=\'4px\'>务必要添加QQ群或者机器人</font></br></br>
   <a href=\'点击机器人头像分享二维码的时候选择复制链接粘贴到这里\'><button class=\'el-button el-button--primary\' type=\'button\'><span>添加QQ机器人</span>
   </button></a></br></br><a href=\'点分享QQ群然后复制链接粘贴到这里'><button class=\'el-button el-button--primary\' type=\'button\'><span>加入QQ群</span></button></a>",
+  //Proxy 支持不带密码的socks5 以及http 
+  ///http  Proxy 只需要填写 ip:端口
+  /// Socks5 需要填写socks5://ip:端口 不能填写下方账户密码
+  "Proxy": "",
+  //Proxy帐号
+  "ProxyUser": "",
+  //Proxy密码
+  "ProxyPass": "",
   ///开启打印等待日志卡短信验证登陆 可开启 拿到日志群里回复 默认不要填写
   "Debug": "",
   ///自动滑块次数5次 5次后手动滑块 可设置为0默认手动滑块
